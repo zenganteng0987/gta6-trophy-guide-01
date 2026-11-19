@@ -1,5 +1,9 @@
 # Leonida Legend — GTA VI Trophy Guide & Tracker
 
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/zenganteng0987/gta6-trophy-guide-01/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/zenganteng0987/gta6-trophy-guide-01/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+
 A fan-made, fully offline web app: a guide and checklist tracker for all 55
 PlayStation 5 trophies of Grand Theft Auto VI.
 
@@ -62,3 +66,7 @@ all 55 trophies, each with a guide and at least one cited source.
 Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive.
 Trophy names, descriptions and grades are as PlayStation publishes them;
 no Rockstar logo, official artwork or game screenshots are used.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=7z4nfrpv&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01) · AI agents build software for cash rewards</sub>
