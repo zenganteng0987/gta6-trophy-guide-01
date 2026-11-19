@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="A fan-made offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI: cited guides, a roadmap to the platinum, missable flags, spoiler shield, export and import.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="topbar">
+  <div class="brand">
+    <p class="brand-mark">LEONIDA LEGEND</p>
+    <h1>GTA VI Trophy Guide &amp; Tracker</h1>
+    <p class="brand-sub">All 55 PlayStation 5 trophies — official names, descriptions and grades, a cited guide for each one, a roadmap to the platinum, and a checklist that saves your progress on this device.</p>
+  </div>
+  <div class="progress-panel" aria-label="Your progress">
+    <p class="progress-count"><span id="earned-count">0</span> of 55 earned</p>
+    <div class="progress-track"><div id="progress-bar"></div></div>
+    <p class="grade-tallies" id="grade-tallies">Platinum 0/1 · Gold 0/2 · Silver 0/6 · Bronze 0/46</p>
+    <p class="progress-note">Progress is stored only in this browser (localStorage). Export it to a file to keep or move it.</p>
+  </div>
+</header>
+
+<section id="missable-alert" aria-label="Missable trophy warning">
+  <h2>⚠ 1 potentially missable trophy</h2>
+  <p><strong>Positive Mental Attitude</strong> (Bronze) — meditate at every spot across Leonida. During <strong>Chapter 1</strong>, after the mission <em>Down to Earth</em>, Lucia meditates on the balcony at Jason's house: follow her and accept. That moment is not marked as a meditation spot, it disappears when Chapter 1 ends, and guides disagree on whether it counts — do it to be safe. Every other trophy can still be earned after the story. <span class="alert-source">Sources: PowerPyx trophy guide; CryptoGames trophy list (cited in full on the trophy's card below).</span></p>
+</section>
+
+<nav id="toolbar" aria-label="Filters and progress tools">
+  <div class="tool-row">
+    <label class="search-box">Search <input id="search" type="search" placeholder="Trophy name or keyword…"></label>
+    <label>Grade
+      <select id="grade-filter">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+    <label class="toggle"><input id="spoiler-toggle" type="checkbox"> Spoiler shield: hide story trophies until earned</label>
+    <label class="toggle"><input id="hide-earned-toggle" type="checkbox"> Hide earned</label>
+  </div>
+  <div class="tool-row">
+    <div class="kind-chips" id="kind-chips" role="group" aria-label="Filter by kind">
+      <button type="button" data-kind="all" class="chip active">All kinds</button>
+      <button type="button" data-kind="story" class="chip">Story</button>
+      <button type="button" data-kind="missable" class="chip">Missable</button>
+      <button type="button" data-kind="collectibles" class="chip">Collectibles</button>
+      <button type="button" data-kind="activities" class="chip">Activities</button>
+      <button type="button" data-kind="online" class="chip">Online</button>
+    </div>
+    <div class="tool-actions">
+      <button id="export-button" type="button">Export progress</button>
+      <label class="import-label">Import progress <input id="import-input" type="file" accept="application/json,.json"></label>
+      <button id="reset-button" type="button">Reset</button>
+    </div>
+  </div>
+  <p id="result-count" class="result-count" aria-live="polite"></p>
+</nav>
+
+<main id="checklist" aria-label="Trophy checklist">
+  <h2>The 55 trophies</h2>
+  <p class="list-intro">Tick a trophy when you earn it. Open its guide for what to do, the steps, and the sources each guide is based on — every guide here is written in our own words and cites its sources beside it.</p>
+  <div id="trophy-list"></div>
+  <p id="empty-state" hidden></p>
+</main>
+
+<section id="roadmap" aria-label="Roadmap to the platinum">
+  <h2>Roadmap to the platinum</h2>
+  <p class="roadmap-intro">One playthrough, no online trophies, nothing else missable. Estimated total ≈ 200 hours, difficulty 4/10. Cheats disable trophies and saving, and there is no mission replay — keep a manual save at the start of each chapter (15 manual slots). Roadmap source: <a id="roadmap-source" href="https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/" target="_blank" rel="noopener">PowerPyx — GTA 6 Trophy Guide &amp; Roadmap</a>.</p>
+  <div id="roadmap-stages"></div>
+</section>
+
+<footer id="colophon">
+  <p id="about-text"></p>
+  <p>Trophy names, descriptions and grades are as PlayStation publishes them. Guides are original text written for this page; facts are credited to the sources named on each card. Fan-made; not affiliated with Rockstar Games or Take-Two Interactive. No official artwork is used.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
