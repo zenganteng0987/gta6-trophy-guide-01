@@ -1,3 +1,0 @@
-# Local run output of the entry program (mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts).
-# The grader runs the program itself; the output directory is not part of the entry.
-out/
